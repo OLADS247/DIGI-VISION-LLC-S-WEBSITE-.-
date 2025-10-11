@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css">
+    </head>
+    <div class="top-bar">
+            <div class="logo">
+                <img src="images/WhatsApp Image 2025-09-12 at 23.16.06_74762b2b.jpg" alt="">
+                </div>
+                  <div class="menu-toggle" id="menu-toggle">
+    ☰
+  </div>
+                <div class="navs">
+                    <ul>
+                        <li><a href="index.html">HOME</a></li>
+                        <li><a href="about.html">ABOUT</a></li>
+                        <li><a href="services.html">WHAT WE DO</a></li>
+                        <li><a href="testimonials.html">TESTIMONIALS</a></li>
+                        <li><a href="teams.html">MEET THE TEAM</a></li>
+                        <!-- <li><a href="">Our-Socials</a></li>
+                          -->
+
+                        <li><a href="consult.html">Talk To Our Expert</a></li>
+        <li><a href="contact.html">Contact-Us</a></li>
+                    
+                      </ul>
+            </div>
+        </div>
+    <div class="about-section" id="about">
+  <div class="about-container">
+    <h2>About Us</h2>
+    <p>
+      At <strong>DIGI-VISION</strong>, we specialize in providing cutting-edge software solutions, IT consulting, and digital transformation services. 
+      Our team of computer science professionals is passionate about turning ideas into innovative technology. Whether you're a startup or an enterprise, 
+      we offer scalable, secure, and smart solutions tailored to your needs.
+    </p>
+  </div>
+</div>
+</body>
+<!-- ...existing code... -->
+
+<footer class="footer">
+  <div class="footer-container">
+    <div class="footer-logo">
+      <img src="images/WhatsApp Image 2025-09-12 at 23.16.06_74762b2b.jpg" alt="DIGI-VISION Logo" style="height:40px;">
+    </div>
+    <div class="footer-links">
+      <a href="index.html">Home</a> |
+      <a href="about.html">About</a> |
+      <a href="services.html">Services</a> |
+      <a href="testimonials.html">Testimonials</a> |
+      <a href="teams.html">Team</a>
+    </div>
+    <div class="footer-contact">
+      <p>Email: digivision2025@outlook.com</p>
+      <p>Phone: +234-9035893545</p>
+    </div>
+    <div class="footer-copy">
+      <p>&copy; 2025 DIGI-VISION. All rights reserved.</p>
+    </div>
+  </div>
+</footer>
+<script>
+const menuToggle = document.getElementById("menu-toggle");
+const navs = document.getElementById("navs");
+
+menuToggle.addEventListener("click", () => {
+  navs.classList.toggle("active");
+
+  // Toggle icon text between ☰ and ✖
+  if (menuToggle.textContent.trim() === "☰") {
+    menuToggle.textContent = "✖";
+  } else {
+    menuToggle.textContent = "☰";
+  }
+});
+</script>
+</body>
+</html>
+</html>

@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <div class="top-bar">
+            <div class="logo">
+                <img src="images/WhatsApp Image 2025-09-12 at 23.16.06_74762b2b.jpg" alt="">
+                </div>
+                  <div class="menu-toggle" id="menu-toggle">
+    ☰
+  </div>
+                <div class="navs">
+                    <ul>
+                        <li><a href="index.html">HOME</a></li>
+                        <li><a href="about.html">ABOUT</a></li>
+                        <li><a href="services.html">WHAT WE DO</a></li>
+                        <li><a href="#">TESTIMONIALS</a></li>
+                        <li><a href="teams.html">MEET THE TEAM</a></li>
+
+                        <!-- <li><a href="">Book A Consultation</a></li>
+                          -->
+                        <li><a href="consult.html">Talk To Our Expert</a></li>
+                        <!-- <li><a href="">Our-Socials</a></li> -->
+        <li><a href="contact.html">Contact-Us</a></li>
+
+                    </ul>
+            </div>
+        </div>
+        <div class="testimonials-section" id="testimonials">
+  <h2>What Our Clients Say</h2>
+  <div class="testimonials-container">
+
+    <!-- Testimonial 1 -->
+    <div class="testimonial-card">
+      <p class="testimonial-text">"DIGI-VISION delivered our website and app exactly as promised — fast, modern, and secure. Highly professional team!"</p>
+      <h4>Sarah Adeyemi</h4>
+      <span>Founder, GlowTech Ltd</span>
+    </div>
+
+    <!-- Testimonial 2 -->
+    <div class="testimonial-card">
+      <p class="testimonial-text">"Their DIGI-CONNECT app is fantastic! Lightweight, easy to use, and our team uses it daily to stay connected."</p>
+      <h4>Michael Okon</h4>
+      <span>Operations Manager, NexaTeam</span>
+    </div>
+
+    <!-- Testimonial 3 -->
+    <div class="testimonial-card">
+      <p class="testimonial-text">"We’ve been using their maintenance service for 2 years — everything runs smoothly, and support is top-notch."</p>
+      <h4>Blessing Uche</h4>
+      <span>CEO, BlendTech</span>
+    </div>
+
+  </div>
+</div>
+<script>
+const menuToggle = document.getElementById("menu-toggle");
+const navs = document.getElementById("navs");
+
+menuToggle.addEventListener("click", () => {
+  navs.classList.toggle("active");
+
+  // Toggle icon text between ☰ and ✖
+  if (menuToggle.textContent.trim() === "☰") {
+    menuToggle.textContent = "✖";
+  } else {
+    menuToggle.textContent = "☰";
+  }
+});
+</script>
+</body>
+<!-- ...existing code... -->
+
+<footer class="footer">
+  <div class="footer-container">
+    <div class="footer-logo">
+      <img src="images/WhatsApp Image 2025-09-12 at 23.16.06_74762b2b.jpg" alt="DIGI-VISION Logo" style="height:40px;">
+    </div>
+    <div class="footer-links">
+      <a href="index.html">Home</a> |
+      <a href="about.html">About</a> |
+      <a href="services.html">Services</a> |
+      <a href="testimonials.html">Testimonials</a> |
+      <a href="teams.html">Team</a>
+    </div>
+    <div class="footer-contact">
+     <p>Email: digivision2025@outlook.com</p>
+      <p>Phone: +234-9035893545</p>
+    </div>
+    <div class="footer-copy">
+      <p>&copy; 2025 DIGI-VISION. All rights reserved.</p>
+    </div>
+  </div>
+</footer>
+</html>
