@@ -47,7 +47,7 @@ This website serves as our **official platform** for showcasing our mission, ser
 
 ## 📡 Live Site
 
-🌐 Visit: [https://www.digivisionintl.com] or {https://olads247.github.io/DIGI-VISION-LLC-S-WEBSITE/
+🌐 Visit: [digi-vision-llc.vercel.app] or {https://olads247.github.io/DIGI-VISION-LLC-S-WEBSITE/
 }
 
 ---
@@ -69,7 +69,7 @@ Upcoming enhancements:
 Want to contribute, partner, or collaborate? Let’s connect:
 
 📧 Email: `youremail@example.com`  
-🌐 Website: [https://your-digi-vision-url.com](https://your-digi-vision-url.com)
+🌐 Website: [digi-vision-llc.vercel.app)
 
 ---
 
